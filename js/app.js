@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('#note').keyup(debounce(function () {
-    localStorage.setItem("note", $(this).val());
+    localStorage.setItem("note", $("#note").val());
     $("#flash").removeClass('hidden');
   }, 500));
 
