@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  $('#note').keyup(debounce(() => {
+  $('#note').keyup(debounce(function() {
     localStorage.setItem("note", $(this).val());
     $("#flash").removeClass('hidden');
   }, 500));
