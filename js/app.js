@@ -1,5 +1,5 @@
-$(document).ready(() => {
-  $('#note').keyup(debounce(function() {
+$(document).ready(function () {
+  $('#note').keyup(debounce(function () {
     localStorage.setItem("note", $(this).val());
     $("#flash").removeClass('hidden');
   }, 500));
@@ -10,16 +10,16 @@ $(document).ready(() => {
   }
 });
 
-setInterval(() => {
+setInterval(function () {
   $("#flash").addClass('hidden');
 }, 5000);
 
 function debounce(func, wait, immediate) {
   var timeout;
-  return () => {
+  return function () {
     var context = this,
       args = arguments;
-    var later = () => {
+    var later = function () {
       timeout = null;
       if (!immediate) func.apply(context, args);
     };
