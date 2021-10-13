@@ -11,7 +11,7 @@ This app is developed using caching and [ServiceWorker](https://developer.mozill
 
 ## Demo Video
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/p-GUJ60KYbs/0.jpg)](http://www.youtube.com/watch?v=p-GUJ60KYbs "PWA Notes Demo Video")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/00znFnGvNuI/0.jpg)](http://www.youtube.com/watch?v=00znFnGvNuI "PWA Notes Demo Video")
 
 ## License
 
@@ -20,4 +20,4 @@ MIT
 ---
 
 > GitHub [@aadityatamrakar](https://github.com/aadityatamrakar) &nbsp;&middot;&nbsp;
-> Facebook [@aaditya.tamrakar.9](https://www.facebook.com/aaditya.tamrakar.9)
+> Linkedin [@aadityatamrakar](https://www.linkedin.com/in/aadityatamrakar/)
