@@ -9,6 +9,9 @@ This app is developed using caching and [ServiceWorker](https://developer.mozill
   - Works and fetches notes offline-capable thanks to ServiceWorker.
   - "Add To Home Screen" feature on Android supported devices to launch the app from home screen.
 
+## Demo Video
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/p-GUJ60KYbs/0.jpg)](http://www.youtube.com/watch?v=p-GUJ60KYbs "PWA Notes Demo Video")
 
 ## License
 
